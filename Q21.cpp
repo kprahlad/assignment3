@@ -17,6 +17,6 @@ int main()
        else 
         s+=120+1.5*(a-25);
     }
-    s+=o.2*s;
+    s+=0.2*s;
     return 1;
    }
