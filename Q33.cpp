@@ -5,7 +5,7 @@ int main()
   int n;
   cin>>n;
   int i=n%10;
-  while(n>10)
+  while(n>=10)
   {
     n/=10;
   }
