@@ -10,6 +10,7 @@ int main()
     while(i<=n)
     {
      if(!(n%i)) s++;
+      i++;
     }
     if(s==2) sum+=j;
    }
