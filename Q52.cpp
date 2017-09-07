@@ -13,7 +13,7 @@ int main()
       s+=pow(m%10,3);
       m/=10;
      }
-    if(s==i) cout<<"Armstrong";
+    if(s==i) cout<<s<<" is Armstrong";
     i++;
    }
   return 1;
