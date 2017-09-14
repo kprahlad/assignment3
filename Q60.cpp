@@ -13,13 +13,13 @@ int main()
     s+=a%10*pow(2,i);
   }
   i=0;
-  while(s/int(pow(8,i++)));
-  i-=2;
+  while(s/int(pow(8,i))) i++;
+  i--;
   int p=0;
-  while(i)
+  while(i>=0)
   {
-    p=10*p+s/pow(8,i);
-    s=s-s/pow(8,i)
+    p=10*p+s/int(pow(8,i));
+    s=s%int(pow(8,i));	
     i--;
   }
   cout<<"The number in octet is : "<<p;
