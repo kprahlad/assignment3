@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-  float a;
+  int a;
   cin>>a;
   if(!(a%55)) cout<<"Yup";
      else cout<<"No";
