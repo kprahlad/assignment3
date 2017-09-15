@@ -6,6 +6,7 @@ int main()
   long int s;
   cout<<"Enter number in decimal : ";
   cin>>s;
+  int i=0;
   while(s/int(pow(2,i))) i++;
   i--;
   int p=0;
