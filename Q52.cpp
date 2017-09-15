@@ -6,11 +6,17 @@ int main()
   cin>>n;
   while(i<=n)
   {
-    int m=i;
+    int m=i,k=0;
+    while(m)
+    {
+        m/=10;
+        k++;
+    }
+    m=i;
     s=0;
     while(m)
     {
-      s+=pow(m%10,3);
+      s+=pow(m%10,k);
       m/=10;
      }
     if(s==i) cout<<s<<" is Armstrong";
