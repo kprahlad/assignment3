@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-  int a=0,b=1,c,n; //Assuming Fibo starts with 0,1
+  int a=0,b=0,c=1,n; //Assuming Fibo starts with 1,1
   cin>>n;
   int i=1;
   while(i<=n)
   {
-     c=a+b;
+     cout<<c<<" ";
      a=b;
      b=c;
-     cout<<c<<" ";
+     c=a+b;
   }
   return 1;
 }
