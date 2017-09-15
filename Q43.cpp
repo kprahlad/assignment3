@@ -7,7 +7,7 @@ int main()
   int i=1;
   while(i<=n)
   {
-    if(!(n%i)) cout<<i;
+    if(!(n%i)) cout<<i++;
   }
   return 1;
 }
