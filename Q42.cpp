@@ -3,10 +3,11 @@ using namespace std;
 int main()
 {
   int s=1,n,j=1;
-  cin>>i>>n;
+  cin>>j>>n;
   while(j<=n)
   {
-    s*=s
+    s*=i;
+    j++;
   }
   cout<<s;
   return 1;
