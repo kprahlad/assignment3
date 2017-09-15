@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-  long int a;
+  long int s;
   cout<<"Enter number in decimal : ";
   cin>>s;
   while(s/int(pow(8,i))) i++;
