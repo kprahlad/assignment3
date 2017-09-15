@@ -24,3 +24,4 @@ while(i<l)
    else cout<<char(7+p[i]);i++;
 }
  return 0;
+}
